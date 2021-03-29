@@ -11,8 +11,9 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - PLCategoryPubKit (4.0)
-  - PLLoginComponent (1.0):
+  - PLLoginComponent (3.0):
     - CTMediator
+    - PLCategoryPubKit
   - Specta (1.0.7)
 
 DEPENDENCIES:
@@ -44,7 +45,7 @@ SPEC CHECKSUMS:
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   PLCategoryPubKit: 6901845e896ef8e19d857c8d985d26464364fc8b
-  PLLoginComponent: 7af820d6ea847248b01ec9554e52b57c27c4162a
+  PLLoginComponent: e8beedf6a655dfb22b17ccf38124d0e3bf71ef7c
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
 PODFILE CHECKSUM: 568fefab79b7ffaf9421da4ba4439a6f0968dd68
