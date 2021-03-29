@@ -1,8 +1,8 @@
 #use_frameworks!
 
 platform :ios, '9.0'
-#source 'https://github.com/solerpan/SPSpecs.git'
-#source 'https://github.com/casatwy/CTMediator.git'
+source 'https://github.com/solerpan/SPSpecs.git'
+source 'https://github.com/casatwy/CTMediator.git'
 target 'PLLoginComponent_Example' do
   pod 'PLLoginComponent', :path => '../'
   pod 'CTMediator'
