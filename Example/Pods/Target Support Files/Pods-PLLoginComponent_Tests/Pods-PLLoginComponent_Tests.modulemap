@@ -1,0 +1,6 @@
+module Pods_PLLoginComponent_Tests {
+  umbrella header "Pods-PLLoginComponent_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

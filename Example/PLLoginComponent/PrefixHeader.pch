@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  PLLoginComponent
+//
+//  Created by 潘亮 on 2021/3/25.
+//  Copyright © 2021 solerpan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Helper.h"
+#import <PLCategoryPubKit/UIColor+Hex.h>
+#define MAS_SHORTHAND
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+#endif /* PrefixHeader_pch */

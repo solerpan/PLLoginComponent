@@ -1,0 +1,35 @@
+{
+  "name": "PLLoginComponent",
+  "version": "0.1.0",
+  "summary": "A short description of PLLoginComponent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/solerpan/PLLoginComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "solerpan": "panliang@17shanyuan.com"
+  },
+  "source": {
+    "git": "https://github.com/solerpan/PLLoginComponent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "PLLoginComponent/Classes/**/*",
+  "resource_bundles": {
+    "PLLoginComponent": [
+      "PLLoginComponent/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "PLCategoryPubKit": [
+
+    ],
+    "CTMediator": [
+
+    ]
+  }
+}

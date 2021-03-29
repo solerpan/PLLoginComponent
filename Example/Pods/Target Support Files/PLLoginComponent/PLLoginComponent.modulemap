@@ -1,0 +1,6 @@
+framework module PLLoginComponent {
+  umbrella header "PLLoginComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,9 @@
 //
 
 #import "BBViewController.h"
+#import "PLLoginComponent/BBLoginViewController.h"
+#import "PLLoginComponent/MyNavigationController.h"
+#import <CTMediator+BBLoginModule.h>
 
 @interface BBViewController ()
 
@@ -17,13 +20,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
 }
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    BBLoginViewController*vc = [[CTMediator sharedInstance] LoginModule_viewControllerWithParam:@{} callback:^(NSString * _Nonnull result) {
+        NSLog(@"resultA: --- %@", result);
+    }];
+        
+    
+    
+    MyNavigationController * nav = [[MyNavigationController alloc] initWithRootViewController:vc];
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:nav animated:YES completion:^{
+        
+    }];
 }
-
 @end

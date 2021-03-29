@@ -1,0 +1,6 @@
+framework module PLCategoryPubKit {
+  umbrella header "PLCategoryPubKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
